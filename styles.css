@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
   }
-  nav {
+nav {
     background-color: #333;
     color: white;
     padding: 10px;
@@ -13,33 +13,33 @@ body {
     position: fixed;
     top: 0;
   }
-  nav a {
+nav a {
     display: inline-block;
     margin: 0;
     color: white;
     text-decoration: none;
     padding: 10px;
   }
-  nav a:hover {
+nav a:hover {
     background-color: #444;
   }
-  section {
+section {
     margin: 20px;
     padding: 20px;
     background-color: #f4f4f4;
   }
-  #pricing {
+#pricing {
     background-color: #999;
     display: flex;
     justify-content: space-between;
 
   }
-  #pricing div{
+#pricing div{
     margin: 20px;
     background-color: #888;
     padding: 10px;
   }
-  section #email{
+section #email{
     margin-top: 90px;
   }
 @media (min-width: 800px){
